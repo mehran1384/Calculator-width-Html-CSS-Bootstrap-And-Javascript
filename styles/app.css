@@ -1,0 +1,115 @@
+:root {
+    --app-bg: #E0E0E0;
+    --math-color: #000000;
+    --math-bg: #ffffff;
+}
+
+.dark-mode {
+    --app-bg: #3D3D3D;    
+    --math-color: #ffffff;
+    --math-bg: #2f3332;
+}
+
+/* /-/-/-/-/-/-/-/-/-/ Reset Style /-/-/-/-/-/-/-/-/-/ */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--app-bg);
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+}
+
+h1 {
+    margin: 0 !important;
+}
+
+input, button {
+    padding: 0 !important;
+}
+
+button {
+    background-color: transparent;
+}
+
+/* /-/-/-/-/-/-/-/-/-/ Hellper Class Style /-/-/-/-/-/-/-/-/-/ */
+
+.wrapper {
+    height: 100vh;
+}
+
+.container {
+    width: 20rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.outline-0 {
+    outline: none;
+}
+
+.title-color {
+    color: var(--title-color);
+}
+
+.math-color {
+    color: var(--math-color);
+}
+
+.math-bg {
+    background-color: var(--math-bg);
+}
+
+/* /-/-/-/-/-/-/-/-/-/ Component Style /-/-/-/-/-/-/-/-/-/ */
+
+.result {
+    font-weight: 500;
+}
+
+.clear-btn {
+    border: none;
+    outline: none;
+}
+
+.clear-btn:hover {
+    background-color: rgb(200, 53, 70) !important;
+}
+
+.clear-btn:active {
+    background-color: rgba(180, 53, 69) !important;
+}
+
+.arithmetic {
+    width: 3.438rem;
+    font-size: 1.063rem;
+    font-weight: 500;
+}
+
+.arithmetic:hover {
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.arithmetic:active {
+    background-color: rgb(255, 255, 255, 0.1);
+}
