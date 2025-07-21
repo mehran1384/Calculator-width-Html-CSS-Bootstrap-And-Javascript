@@ -1,6 +1,6 @@
 # Calculator
 
-A simple Calculator App built with HTML, CSS, and JavaScript. It also has a Dark Mode.
+A simple Calculator App built with HTML, CSS, BOOTSTRAP and JavaScript. It also has a Dark Mode.
 
 
 [click here to see calculator](https://mehran1384.github.io/Calculator-width-Html-CSS-Bootstrap-And-Javascript/).
